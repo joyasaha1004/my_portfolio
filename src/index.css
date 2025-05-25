@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+.underline-hover {
+  position: relative;
+}
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #facc15; /* amber-400 */
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::after {
+  width: 100%;
+}

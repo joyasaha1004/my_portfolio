@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .nav-list li{
+        @apply cursor-pointer text-lg font-bold tracking-wide 
+    }
+   
+    .nav-items li{
+        @apply relative inline-block
+    }
+}

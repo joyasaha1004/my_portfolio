@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .contact-icon li i{
+        @apply cursor-pointer hover:text-yellow-400
+    }
+}
