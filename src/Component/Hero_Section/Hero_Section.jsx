@@ -21,7 +21,7 @@ useGSAP(() => {
            <div className='' id='hero'>
      
  
-        <div className="dark:bg-gray-800 overflow-x-hidden max-w-screen-xl mx-auto  pt-36 pb-52 inset-0 z-0 lg:flex px-3 lg:pt-24 lg:pb-40">
+        <div className="dark:bg-gray-800 overflow-x-hidden max-w-screen-xl mx-auto h-screen pt-44 inset-0 z-0 lg:flex px-3 lg:h-fit lg:pt-24 lg:pb-40">
   {[..."{}[]()<>=!"].map((char, i) => {
     const colors = [
       "text-yellow-300",
