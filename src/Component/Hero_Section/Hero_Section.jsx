@@ -52,10 +52,10 @@ useGSAP(() => {
   })}
 
 
-<div className=' max-w-screen-xl mx-auto z-50 sm:ml-6 self-center' >
+<div className=' max-w-screen-xl mx-auto z-50 sm:ml-3 lg:ml-6 self-center' >
   <div className=' text-gray-800 dark:text-gray-200 mb-5 sm:mb-8'>
-    <h1 className='text-5xl leading-tight  font-bold mb-2 font-sans sm:mb-5 md:text-6xl lg:text-7x'>I'm Joya Saha</h1>
-    <span className='italic  font-semibold text-lg sm:text-xl tracking-wide'>Creative Front End Architect</span>
+    <h1 className='text-4xl sm:text-5xl leading-tight  font-bold mb-2 font-sans sm:mb-5 md:text-6xl '>I'm Joya Saha</h1>
+    <span className='italic  font-semibold text-base sm:text-xl tracking-wide'>Creative Front End Architect</span>
     
   </div>
      <a  href="/joya_resume.pdf"  download="Joya_Saha_Resume" className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
