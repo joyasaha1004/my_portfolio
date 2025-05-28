@@ -17,7 +17,7 @@ useGSAP(() => {
 
     return (
       
-           <div className='dark:bg-gray-800 overflow-x-hidden relative pt-40 pb-48 flex items-center z-10 px-3 lg:h-fit lg:pt-24 lg:pb-36 ' id='hero'>
+           <div className='dark:bg-gray-800 overflow-x-hidden relative h-screen flex items-center z-10 px-3 lg:h-fit lg:pt-20 lg:pb-36 ' id='hero'>
      
  <div className='max-w-screen-xl mx-auto w-full lg:relative'>
         <div className="inset-0 z-0 pointer-events-none">
@@ -53,7 +53,7 @@ useGSAP(() => {
 
 <div className=' lg:pl-7 overflow-y-hidden lg:flex lg:justify-between'>
 
-<div className=' pb-7  self-center'>
+<div className=' pb-7  self-end'>
   <div className=' text-gray-800 dark:text-gray-200 mb-5 sm:mb-8'>
     <h1 className='text-4xl sm:text-5xl leading-tight  font-bold mb-2 font-sans sm:mb-5 md:text-6xl '>I'm Joya Saha</h1>
     <span className='italic  font-semibold text-base sm:text-xl tracking-wide'>Creative Front End Architect</span>
