@@ -11,21 +11,20 @@ export default {
       xl: '1000px',
     '2xl': '1500px',
     },
-    animation: {
-        'char': 'float 10s ease-in-out infinite',
-      },
-      keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-20px)' },
-        },
-      },
-     
+   
 
    extend: {
-     fontFamily: {
-        // bebas: ['"Bebas Neue"', 'sans-serif'],
+
+    animation: {
+      float: 'float 8s ease-in-out infinite',
+    },
+    keyframes: {
+      float: {
+        '0%, 100%': { transform: 'translateY(0)' },
+        '50%': { transform: 'translateY(-20px)' },
       },
+    },
+    
     },
   },
   plugins: [],

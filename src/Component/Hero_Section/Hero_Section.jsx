@@ -1,6 +1,6 @@
 import React from 'react';
 import gsap from 'gsap';
-import "./Hero_Section.css"
+import "./Hero_Section.css";
 import { useGSAP } from '@gsap/react';
 
 const Hero_Section = () => {
@@ -15,13 +15,12 @@ useGSAP(() => {
   });
 });
 
- 
     return (
       
-           <div className='' id='hero'>
+           <div className='dark:bg-gray-800 overflow-x-hidden relative h-screen flex items-center z-10 px-3 lg:h-fit lg:pt-24 lg:pb-36 ' id='hero'>
      
- 
-        <div className="dark:bg-gray-800 overflow-x-hidden max-w-screen-xl mx-auto h-screen pt-44 inset-0 z-0 lg:flex px-3 lg:h-fit lg:pt-24 lg:pb-40">
+ <div className='max-w-screen-xl mx-auto w-full lg:relative'>
+        <div className="inset-0 z-0 pointer-events-none">
   {[..."{}[]()<>=!"].map((char, i) => {
     const colors = [
       "text-yellow-300",
@@ -37,12 +36,12 @@ useGSAP(() => {
     return (
       <span
         key={i}
-        className={`absolute bg-symbol ${randomColor} opacity-60 text-5xl`}
+        className={`absolute bg-symbol ${randomColor} opacity-50 text-5xl`}
          style={{
 
-          top: `${Math.random() * 100}%`,
+          top: `${Math.random() * 90}%`,
 
-           left: `${Math.random()*100 }%`,
+           left: `${Math.random()*90 }%`,
         animationDelay: `${Math.random() }s`,
          }}
       >
@@ -50,31 +49,36 @@ useGSAP(() => {
       </span>
     );
   })}
+  </div>
 
+<div className=' lg:pl-7 overflow-y-hidden lg:flex lg:justify-between'>
 
-<div className=' max-w-screen-xl mx-auto z-50 sm:ml-3 lg:ml-6 self-center' >
+<div className=' pb-7  self-center'>
   <div className=' text-gray-800 dark:text-gray-200 mb-5 sm:mb-8'>
     <h1 className='text-4xl sm:text-5xl leading-tight  font-bold mb-2 font-sans sm:mb-5 md:text-6xl '>I'm Joya Saha</h1>
     <span className='italic  font-semibold text-base sm:text-xl tracking-wide'>Creative Front End Architect</span>
     
-  </div>
+    </div>
      <a  href="/joya_resume.pdf"  download="Joya_Saha_Resume" className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
-    
-
+  
         </div>
 
-       <div>
+       <div className=''>
         <ul className='contact-icon hidden lg:block text-gray-500 text-3xl space-y-6'>
-          <li><a href="https://web.telegram.org/a/" target="_blank" rel="noopener noreferrer"><i class="ri-telegram-2-fill"></i></a></li>
-         <li><a href="https://www.facebook.com/profile.php?id=61565204070045" target="_blank" rel="noopener noreferrer"><i class="ri-facebook-circle-fill"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/joyasaha20" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-fill"></i></a></li>
-       <li><a href="https://github.com/joyasaha1004" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a></li>
+          <li><a href="https://web.telegram.org/a/" target="_blank" rel="noopener noreferrer"><i className="ri-telegram-2-fill"></i></a></li>
+         <li><a href="https://www.facebook.com/profile.php?id=61565204070045" target="_blank" rel="noopener noreferrer"><i className="ri-facebook-circle-fill"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/joyasaha20" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-fill"></i></a></li>
+       <li><a href="https://github.com/joyasaha1004" target="_blank" rel="noopener noreferrer"><i className="ri-github-fill"></i></a></li>
         </ul>
-        </div>
+       </div>
 
+ </div>
+  <div className='absolute bottom-2 right-6 text-xs text-slate-400 z-50 lg:-bottom-32 '>
+    <span>🍪 Cookie-free zone — focus on frontend, not food.</span>
+  </div>
 
-        </div>
-        </div>
+       
+       </div> </div>
     );
 };
 

@@ -4,7 +4,7 @@
 
 @layer components{
 
-    .contact-icon li i{
+    .contact-icon li {
         @apply cursor-pointer hover:text-yellow-400
     }
 }
