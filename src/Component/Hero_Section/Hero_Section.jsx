@@ -17,7 +17,7 @@ useGSAP(() => {
 
     return (
       
-           <div className='dark:bg-gray-800 overflow-x-hidden relative h-screen flex items-center z-10 px-3 lg:h-fit lg:pt-24 lg:pb-36 ' id='hero'>
+           <div className='dark:bg-gray-800 overflow-x-hidden relative pt-40 pb-48 flex items-center z-10 px-3 lg:h-fit lg:pt-24 lg:pb-36 ' id='hero'>
      
  <div className='max-w-screen-xl mx-auto w-full lg:relative'>
         <div className="inset-0 z-0 pointer-events-none">
