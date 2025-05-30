@@ -15,7 +15,7 @@ const About_Section = () => {
       I'm <span className="text-amber-500 font-semibold">Joya Saha</span>, a passionate front-end architect dedicated to crafting elegant, responsive, and accessible user experiences. My focus is always on writing clean code, creating smooth animations, and solving real user problems through design.
     </p>
 
-    <div className="grid gap-4 sm:grid-cols-2 text-left">
+    <div className="grid gap-4 md:grid-cols-2 text-left">
       <div className="flex items-start space-x-3">
         <i className="ri-flashlight-line text-amber-400 text-2xl"></i>
         <span>Expertise in React, Tailwind CSS & GSAP</span>
