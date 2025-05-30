@@ -73,7 +73,7 @@ useGSAP(() => {
        </div>
 
  </div>
-  <div className='absolute bottom-2 right-6 text-xs text-slate-400 z-50 lg:-bottom-32 '>
+  <div className='absolute bottom-2 right-6 text-xs text-slate-400 z-50 lg:-bottom-44 '>
     <span>🍪 Cookie-free zone — focus on frontend, not food.</span>
   </div>
 

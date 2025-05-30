@@ -28,7 +28,7 @@ const Skills_Section = () => {
         
         <div
           key={i}
-          className="flex flex-col items-center justify-center space-x-2 w-48 h-52 bg-gray-800 dark:bg-gray-800 text-white dark:text-gray-200 rounded-lg transition shadow-xl lg:w-52 lg:h-56"
+          className="flex flex-col items-center justify-center space-x-2 w-48 h-52 md:w-40 md:h-40 bg-gray-800 dark:bg-gray-800 text-white dark:text-gray-200 rounded-lg transition shadow-xl lg:w-52 lg:h-56"
         >
           <i className={`${skill.icon} ${skill.color} text-8xl self-center mb-2`}></i>
           <span className="font-medium text-xl">{skill.name}</span>
