@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 /* index.css */
+html{
+  scroll-behavior: smooth;
+}
 .underline-hover {
   position: relative;
 }
@@ -11,7 +14,7 @@
   content: "";
   position: absolute;
   width: 0%;
-  height: 2px;
+  height:2px;
   left: 0;
   bottom: 0;
   background-color: #facc15; /* amber-400 */

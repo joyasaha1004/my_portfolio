@@ -134,7 +134,7 @@ const Navbar = () => {
           </ul>
          
           </div>
- <i className="ri-contrast-fill hidden lg:block lg:text-2xl lg:self-center text-gray-600 cursor-pointer" onClick={handleThemeSwitch}></i> 
+ <i className="ri-contrast-fill hidden lg:block lg:text-2xl lg:self-center text-gray-600 cursor-pointer underline-hover" onClick={handleThemeSwitch}></i> 
 
       
         {/* Menu Icon */}
