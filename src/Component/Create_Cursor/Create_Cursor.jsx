@@ -17,7 +17,7 @@ const Create_Cursor = () => {
    })
     return (
         <div>
-         <div ref={cursor} className="w-6 h-6 rounded-full bg-yellow-300 dark:bg-white fixed top-0 left-0 pointer-events-none z-[9999]  blur-xl"></div>   
+         <div ref={cursor} className="w-6 h-6 rounded-full bg-yellow-300 dark:bg-white fixed top-0 left-0 pointer-events-none z-[9999] overflow-x-hidden blur-xl"></div>   
         </div>
     );
 };
