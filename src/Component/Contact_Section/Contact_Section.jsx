@@ -59,19 +59,19 @@ function sendEmail(e) {
             <label className="block mb-2 text-gray-400">Name</label>
             <input type="text"
               name="user_name" 
-            className="w-full p-3 rounded dark:bg-[#2a2f40] text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required/>
+            className="w-full p-3 rounded dark:bg-[#2a2f40] dark:text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required/>
           </div>
           <div>
             <label className="block mb-2 text-gray-400">Email</label>
             <input type="email"
              name="user_email" 
-            className="w-full p-3 rounded dark:bg-[#2a2f40] text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required/>
+            className="w-full p-3 rounded dark:bg-[#2a2f40] dark:text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required/>
           </div>
           <div>
             <label className="block mb-2 text-gray-400">Message</label>
             <textarea rows="5"
               name="message" 
-            className="w-full p-3 rounded dark:bg-[#2a2f40] text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required></textarea>
+            className="w-full p-3 rounded dark:bg-[#2a2f40] dark:text-white border-2 border-gray-600 focus:outline-none focus:border-yellow-400" required></textarea>
           </div>
           <button type="submit" className="flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded transition font-semibold">
             Send Message <FaPaperPlane/>
