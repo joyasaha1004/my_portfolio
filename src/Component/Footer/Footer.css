@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .contact-link a {
+        @apply cursor-pointer font-semibold lg:text-lg
+    }
+}

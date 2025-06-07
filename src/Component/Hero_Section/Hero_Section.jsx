@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useRef} from 'react';
 import gsap from 'gsap';
 import "./Hero_Section.css";
 import { useGSAP } from '@gsap/react';
@@ -17,7 +17,7 @@ useGSAP(() => {
 
     return (
       
-           <div className='dark:bg-gray-800 overflow-x-hidden relative flex items-center pt-40 pb-48 z-10 px-3 h-fit lg:h-fit ' id='hero'>
+           <div className='relative dark:bg-gray-800 overflow-x-hidden flex items-center pt-40 pb-48 z-10 px-3 h-fit lg:h-fit ' id='hero'>
      
  <div className='max-w-screen-xl mx-auto w-full lg:relative'>
         <div className="inset-0 z-0 pointer-events-none">

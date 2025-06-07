@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from '@gsap/react';
 
 const Navbar = () => {
+
   const menuRef = useRef();
   const crossRef = useRef();
 
@@ -12,6 +13,7 @@ const Navbar = () => {
   const layer3 = useRef();
    const navContent = useRef();
    const navIcon = useRef();
+ 
   useGSAP(() => {
     const tl = gsap.timeline();
 
@@ -38,7 +40,8 @@ const Navbar = () => {
 
       .to(navIcon.current,{
         display:"block",
-      });
+      })
+     
 
     tl.pause();
 
@@ -97,9 +100,9 @@ const Navbar = () => {
          
             <li className='group'  onClick={handleThemeSwitch}><a href='' className="underline-hover">Home</a></li>
             <li className='group'><a href='#about' className="underline-hover">About</a></li>
-            <li className='group'><a href='#skills' className="underline-hover">Skills</a></li>
+            <li className='group'><a href='#skills' className="underline-hover" >Skills</a></li>
             <li className='group'><a href='#projects' className="underline-hover">Projects</a></li>
-            <li className='group'><a href='#Contact' className="underline-hover">Contact</a></li>
+            <li className='group'><a href='#contact' className="underline-hover">Contact</a></li>
           </ul>
 
            <div className='hidden ' ref={navIcon}>
@@ -116,15 +119,15 @@ const Navbar = () => {
         <div className=" space-x-6 lg:justify-items-end lg:self-center hidden lg:block text-gray-600 dark:text-gray-400 z-60">
           <ul className='nav-list  nav-items flex lg:space-x-9 '>
             <li className='group'>
-              <a href='#about' className="underline-hover">About</a>
+              <a href='#about' className="underline-hover" >About</a>
             
             </li>
             <li className='group'>
-              <a href='#skills'  className="underline-hover">Skills</a>
+              <a href='#skills'  className="underline-hover" >Skills</a>
               
               </li>
             <li className='group'>
-              <a href='#projects'  className="underline-hover">Projects</a>
+              <a href='#projects'  className="underline-hover" >Projects</a>
               
               </li>
             <li className='group'>
