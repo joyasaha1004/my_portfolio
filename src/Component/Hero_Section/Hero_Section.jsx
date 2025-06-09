@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import "./Hero_Section.css";
 import { useGSAP } from '@gsap/react';
 
+
 const Hero_Section = () => {
 useGSAP(() => {
   gsap.to(".bg-symbol", {
@@ -59,7 +60,7 @@ useGSAP(() => {
     <span className='italic  font-semibold text-base sm:text-xl tracking-wide'>Creative Front End Architect</span>
     
     </div>
-     <a  href="/my_portfolio/Joya_Saha_Resume.pdf"  download="Joya_Saha_Resume" className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
+     <a  href="/my_portfolio/Joya_Saha_Resume.pdf"  download className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
   
         </div>
 
