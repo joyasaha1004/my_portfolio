@@ -59,7 +59,7 @@ useGSAP(() => {
     <span className='italic  font-semibold text-base sm:text-xl tracking-wide'>Creative Front End Architect</span>
     
     </div>
-     <a  href="/my_portfolio/joya_resume.pdf"  download="Joya_Saha_Resume" className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
+     <a  href="/joya_resume.pdf"  download="Joya_Saha_Resume" className='px-3 py-2 border-none bg-gradient-to-r from-amber-400 to-amber-300 text-white'>Download Resume</a> 
   
         </div>
 
