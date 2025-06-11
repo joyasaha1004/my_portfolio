@@ -13,52 +13,44 @@ const Navbar = () => {
   const layer3 = useRef();
    const navContent = useRef();
    const navIcon = useRef();
+   const tlRef = useRef();
+
  
   useGSAP(() => {
     const tl = gsap.timeline();
 
     tl.to(layer1.current, {
       width: "100%",
-      duration: 0.4,
+      duration: 0.3,
       ease: "power3.inOut",
     })
        .to(layer2.current, {
         width: "100%",
-        duration: 0.4,
+        duration: 0.3,
         ease: "power3.inOut",
       }, "-=0.2")
     .to(layer3.current, {
         width: "100%",
-        duration: 0.4,
+        duration: 0.3,
         ease: "power3.inOut",
        backgroundImage: 'linear-gradient(to right, #0f172a, #334155)',
       },"-=0.2" )
-      .to(navContent.current, {
-        
-         display: "block",
-              })
+     .to(navContent.current, { display: "block" })
+    .to(navIcon.current, { display: "block" });
 
-      .to(navIcon.current,{
-        display:"block",
-      })
-     
+  tl.pause();
 
-    tl.pause();
+  tlRef.current = tl; // Save timeline to ref
 
-    menuRef.current.addEventListener("click", function () {
-      tl.play();
-    });
+  menuRef.current.addEventListener("click", () => tl.play());
+  crossRef.current.addEventListener("click", () => tl.reverse());
 
-    crossRef.current.addEventListener("click", function () {
-      tl.reverse();
-    });
+  return () => {
+    menuRef.current?.removeEventListener("click", () => tl.play());
+    crossRef.current?.removeEventListener("click", () => tl.reverse());
+  };
+}, []);
 
-    // Cleanup
-    return () => {
-      menuRef.current?.removeEventListener("click", tl.play);
-      crossRef.current?.removeEventListener("click", tl.reverse);
-    };
-  }, []);
 
     const [theme, setTheme] = useState(null);
 
@@ -84,7 +76,7 @@ const Navbar = () => {
 
   return (
     <div className='overflow-x-hidden  z-80 relative dark:bg-gray-800'>
-      <header className='px-2 py-3 flex max-w-screen-xl mx-auto justify-between lg:px-4 border-none'>
+      <header className='px-3 py-3 flex max-w-screen-xl mx-auto justify-between lg:px-4 border-none'>
 
         <h1 className='text-xl text-yellow-300 border w-12 h-10 rounded-lg flex items-center justify-center font-mono font-bold shadow-lg border-yellow-500 md:text-2xl md:w-16 md:h-12 '>{"{JS}"}</h1>
 
@@ -98,11 +90,11 @@ const Navbar = () => {
            <i ref={crossRef} className="ri-close-line cross text-3xl absolute right-6 top-0 cursor-pointer "></i>
           <ul ref={navContent} className='nav-list space-y-6 hidden pb-6'>
          
-            <li className='group'  onClick={handleThemeSwitch}><a href='' className="underline-hover">Home</a></li>
-            <li className='group'><a href='#about' className="underline-hover">About</a></li>
-            <li className='group'><a href='#skills' className="underline-hover" >Skills</a></li>
-            <li className='group'><a href='#projects' className="underline-hover">Projects</a></li>
-            <li className='group'><a href='#contact' className="underline-hover">Contact</a></li>
+           
+            <li className='group'><a href='#about' className="underline-hover"  onClick={() => tlRef.current?.reverse()} >About</a></li>
+            <li className='group'><a href='#skills' className="underline-hover"  onClick={() => tlRef.current?.reverse()}>Skills</a></li>
+            <li className='group'><a href='#projects' className="underline-hover" onClick={() => tlRef.current?.reverse()} >Projects</a></li>
+            <li className='group'><a href='#contact' className="underline-hover"  onClick={() => tlRef.current?.reverse()}>Contact</a></li>
           </ul>
 
            <div className='hidden ' ref={navIcon}>
