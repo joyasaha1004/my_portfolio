@@ -18,12 +18,15 @@ const Skills_Section = () => {
       {[
         { name: "React", icon: "ri-reactjs-line", color: "text-cyan-400" },
         { name: "Tailwind CSS", icon: "ri-tailwind-css-line", color:"text-sky-400" },
-        {name:"Bootstrap", icon:"ri-bootstrap-fill",color:"text-purple-700"},
+        { name:"Bootstrap", icon:"ri-bootstrap-fill",color:"text-purple-700"},
         { name: "JavaScript", icon: "ri-javascript-line", color:"text-yellow-400" },
         { name: "GSAP", icon: "ri-flashlight-line", color: "text-green-400" },
         { name: "HTML5", icon: "ri-html5-line",color:"text-orange-500" },
         { name: "CSS3", icon: "ri-css3-line", color:"text-blue-500" },
-        {name: "Github", icon:"ri-github-fill", color:"text-white"}
+        {name: "Github", icon:"ri-github-fill", color:"text-white"},
+        { name: "Figma to HTML", icon: "ri-layout-line", color: "text-pink-400" },
+  { name: "VS Code", icon: "ri-code-box-line", color: "text-indigo-400" },
+          
       ].map((skill, i) => (
         
         <div

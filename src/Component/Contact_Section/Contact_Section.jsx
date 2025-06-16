@@ -1,6 +1,6 @@
 import React,{useRef} from 'react';
  import emailjs from 'emailjs-com';
-// import emailjs from '@emailjs/browser';
+
 import { FaEnvelope, FaPhoneAlt, FaLinkedin, FaGithub, FaPaperPlane } from "react-icons/fa";
 
 const Contact_Section = () => {
@@ -44,10 +44,10 @@ function sendEmail(e) {
             <span>+8801930411269</span>
           </div>
           <div className="flex space-x-4 pt-4">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/joyasaha20/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-3xl hover:text-yellow-400 transition" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/joyasaha1004" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-3xl hover:text-yellow-400 transition" />
             </a>
           </div>

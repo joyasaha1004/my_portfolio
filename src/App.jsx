@@ -24,13 +24,7 @@ function App() {
    <Contact_Section/>
   <Footer/>
 
-  {/* <Routes>
-    
-    <Route path='/about' element={<About/>}></Route>
-    <Route path='/skills' element={<Skills/>}></Route>
-    <Route path='/Projects' element={<Projects/>}></Route>
-    <Route path='/contact' element={<Contact/>}></Route>
-   </Routes> */}
+ 
    
   </>
   )

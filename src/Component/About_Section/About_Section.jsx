@@ -3,10 +3,10 @@ import React from 'react';
 const About_Section = () => {
     return (
         <div>
-         <section
+        <section
   id="about"
-  className="bg-gray-100 dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-16 overflow-x-hidden">
-
+  className="bg-gray-100 dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-16 overflow-x-hidden"
+>
   <div className="max-w-screen-lg mx-auto text-black dark:text-gray-200 text-center lg:pt-10 lg:pb-12">
     <h2 className="text-3xl sm:text-4xl font-bold mb-6">
       About Me
@@ -32,6 +32,10 @@ const About_Section = () => {
         <i className="ri-magic-line text-amber-400 text-2xl"></i>
         <span>Strong sense for smooth UX and micro-interactions</span>
       </div>
+      <div className="flex items-start space-x-3">
+        <i className="ri-layout-line text-amber-400 text-2xl"></i>
+        <span>Figma to HTML conversion with clean, responsive code</span>
+      </div>
     </div>
 
     <a
@@ -42,6 +46,7 @@ const About_Section = () => {
     </a>
   </div>
 </section>
+
 
  
         </div>
