@@ -99,10 +99,10 @@ const Navbar = () => {
 
            <div className='hidden ' ref={navIcon}>
         <ul className='contact-icon justify-center flex text-gray-500  text-3xl space-x-4'>
-          <li><a href="https://web.telegram.org/a/" target="_blank" rel="noopener noreferrer"><i className="ri-telegram-2-fill"></i></a></li>
-         <li><a href="https://www.facebook.com/profile.php?id=61565204070045" target="_blank" rel="noopener noreferrer"><i className="ri-facebook-circle-fill"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/joyasaha20" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-fill"></i></a></li>
-       <li><a href="https://github.com/joyasaha1004" target="_blank" rel="noopener noreferrer"><i className="ri-github-fill"></i></a></li>
+         <li><a href="https://t.me/joyasaha440" target="_blank" rel="noopener noreferrer"><i className="ri-telegram-2-fill"></i></a></li>
+              <li><a href="https://x.com/JoyaSaha104" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-fill"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/joyasaha20/" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-fill"></i></a></li>
+              <li><a href="https://github.com/joyasaha1004" target="_blank" rel="noopener noreferrer"><i className="ri-github-fill"></i></a></li>
         </ul>
         </div>
           
