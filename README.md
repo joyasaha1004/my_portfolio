@@ -1,8 +1,39 @@
-# React + Vite
+# 💼 Joya Saha — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio!  
+This project highlights my work as a Front-End Developer using modern tools and smooth animations.
 
-Currently, two official plugins are available:
+🌐 **Live Website**  
+👉 [Visit My Portfolio](https://joyasaha1004.github.io/my_portfolio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Features
+
+- React + Vite powered SPA
+- Tailwind CSS for responsive design
+- GSAP for smooth animations
+- Clean and modern UI
+- Projects showcase
+- Contact form + Social links
+- Resume download option
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML, CSS, JavaScript
+- React JS
+- Tailwind CSS
+- GSAP
+- Git & GitHub Pages
+
+---
+
+## 📂 How to Run Locally
+
+```bash
+git clone https://github.com/joyasaha1004/my_portfolio.git
+cd my_portfolio
+npm install
+npm run dev
