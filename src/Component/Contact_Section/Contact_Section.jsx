@@ -24,7 +24,7 @@ function sendEmail(e) {
 
 
     return (
-        <div className='dark:bg-[#1c2230]  overflow-x-hidden dark:text-white py-16 px-6 md:px-20' id='contact'>
+        <div className='dark:bg-[#1c2230]  overflow-x-hidden dark:text-white py-16 px-6 md:px-16' id='contact'>
 
         <section className="max-w-screen-xl mx-auto">
       <h2 className="text-4xl font-bold mb-8 text-center ">Contact Me</h2>
