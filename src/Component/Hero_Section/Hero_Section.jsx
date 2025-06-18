@@ -76,7 +76,7 @@ const Hero_Section = () => {
                 I'm Joya Saha
               </h1>
               <span className='italic font-semibold text-base sm:text-xl tracking-wide'>
-                Creative Front End Architect
+                Creative Front End Architect 
               </span>
             </div>
             <a

@@ -12,7 +12,9 @@ const About_Section = () => {
       About Me
     </h2>
     <p className="text-lg leading-relaxed mb-8">
-      I'm <span className="text-amber-500 font-semibold">Joya Saha</span>, a passionate front-end architect dedicated to crafting elegant, responsive, and accessible user experiences. My focus is always on writing clean code, creating smooth animations, and solving real user problems through design.
+      I'm <span className="text-amber-500 font-semibold">Joya Saha</span> — a passionate Front-End Developer with a strong dedication to clean code, smooth scrolling animations, responsive design, and efficient problem-solving.
+I take full responsibility for my work and approach every project with focus and commitment.
+I’m always excited to learn new things and love exploring new technologies that help me grow as a developer.
     </p>
 
     <div className="grid gap-4 md:grid-cols-2 text-left">

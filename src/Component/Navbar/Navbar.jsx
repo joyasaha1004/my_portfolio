@@ -108,7 +108,7 @@ const Navbar = () => {
           
         </div>
 
-        <div className=" space-x-6 lg:justify-items-end lg:self-center hidden lg:block text-gray-600 dark:text-gray-400 z-60">
+        <div className=" space-x-7 lg:justify-items-end lg:self-center hidden lg:block text-gray-600 dark:text-gray-400 z-60">
           <ul className='nav-list  nav-items flex lg:space-x-9 '>
             <li className='group'>
               <a href='#about' className="underline-hover" >About</a>
